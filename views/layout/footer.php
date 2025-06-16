@@ -43,13 +43,14 @@
 
 <!-- MDB -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mdb-ui-kit@9.0.0/js/mdb.umd.min.js"></script>
-</script>
 <!-- script -->
+<script src="/public/js/md5.min.js"></script>
 <script src="https://unpkg.com/@otplib/preset-browser@^12.0.0/buffer.js"></script>
 <script src="https://unpkg.com/@otplib/preset-browser@^12.0.0/index.js"></script>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
 <script>
 new Typed('#greeting', {
@@ -64,10 +65,14 @@ new Typed('#greeting', {
 let clipboard = new ClipboardJS('#btnCopy');
 clipboard.on('success', function(e) {
     e.clearSelection();
-    alert('Copied to clipboard');
+    Toastify({
+        text: 'Copied to clipboard!',
+        duration: 3000
+    }).showToast();
 });
 </script>
 <script src="/public/js/2fa.js"></script>
+<script src="/public/js/monokia.js"></script>
 </body>
 
 </html>

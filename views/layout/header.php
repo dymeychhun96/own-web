@@ -12,6 +12,9 @@
         rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdn.jsdelivr.net/npm/mdb-ui-kit@9.0.0/css/mdb.min.css" rel="stylesheet" />
+
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <title>Dymey Chhun</title>
 </head>
 
