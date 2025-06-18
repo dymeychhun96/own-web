@@ -14,6 +14,9 @@ function set_title()
         case 'fake-address':
             echo 'Fake Address Generator';
             break;
+        case 'password-generator':
+            echo 'Password Generator';
+            break;
 
         default:
             echo 'Dymey Chhun';

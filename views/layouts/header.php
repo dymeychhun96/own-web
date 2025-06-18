@@ -55,6 +55,9 @@
                                     <li>
                                         <a class="dropdown-item" href="/fake-address">Fake Address</a>
                                     </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/password-generator">Password Generator</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
