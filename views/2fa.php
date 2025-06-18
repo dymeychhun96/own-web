@@ -1,9 +1,9 @@
-<?php include __DIR__ . '../layout/header.php'; ?>
+<?php include __DIR__ . '../layouts/header.php'; ?>
+
 <main class="my-5">
     <div class="d-flex justify-content-center text-white">
         <div class="text-center">
             <h1 class="mb-3 text-secondary display-3">Two-Factor Authentication</h1>
-            <p class="lead text-secondary mb-4">Please enter the secret code.</p>
             <form>
                 <div class="form-group">
                     <input type="text" name="secretCode" id="secretCode" class="form-control form-lg"
@@ -21,4 +21,7 @@
             </div>
         </div>
 </main>
-<?php include __DIR__ . '../layout/footer.php'; ?>
+
+<?php push_script('<script src="/public/js/2fa.js"></script>'); ?>
+
+<?php include __DIR__ . '../layouts/footer.php'; ?>

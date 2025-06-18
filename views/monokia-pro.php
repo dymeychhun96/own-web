@@ -1,4 +1,5 @@
-<?php include __DIR__ . '../layout/header.php'; ?>
+<?php include __DIR__ . '../layouts/header.php'; ?>
+
 <main class="my-5">
     <div class="d-flex justify-content-center text-white">
         <div class="text-center">
@@ -43,4 +44,7 @@
             </div>
         </div>
 </main>
-<?php include __DIR__ . '../layout/footer.php'; ?>
+
+<?php push_script('<script src="/public/js/monokia.js"></script>'); ?>
+
+<?php include __DIR__ . '../layouts/footer.php'; ?>

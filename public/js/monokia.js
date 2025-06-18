@@ -5,7 +5,7 @@ $(function () {
     const license = str25.match(/.{1,5}/g).join("-");
 
     $("#licenseContent").html(
-      `<p class="py-3">Your License Key: <strong>${license}"</strong></p>
+      `<p class="py-3">Your License Key: <strong>${license}</strong></p>
       <button class="btn btn-light" data-clipboard-text="${license}" id="btnCopy" title="Copy to clipboard">
         <i class="fa-solid fa-clipboard"></i>
         </button>
